@@ -69,7 +69,7 @@ factorial(4)
 
 factorial(0)
 
-choose(5, 3)
+choose(5, 3) #combinaciones
 
 choose(3,5)
 
@@ -79,11 +79,14 @@ log(4^6, 4)
 
 choose(5,2)
 
-sin(60*pi/180)
+sin(60*pi/180) #conversion de radianes a decimales 
 
-cos(60*pi/180)
+cos(60*pi/180) #conversion decimal*pi/180
 
-sinpi(1/2) # = sin (pi/2)
+cos(pi)
+cos(pi/6)
+
+sinpi(1/2) # = sin (pi/2), sinpi multiplica el argumento por pi
 
 tan(pi) # -1.224647e-16 ~ 0
 
@@ -97,10 +100,10 @@ asin(5) #arc sin x in [-1,1]
 
 acos(-8)
 
-print(sqrt(2),10)
-round(sqrt(2), 3)
-floor(sqrt(2))
-ceiling(sqrt(2))
+print(sqrt(2),10) #muestra 10 decimales al numero buscado
+round(sqrt(2), 3) #redondea a 3 decimale
+floor(sqrt(2)) #arroja la parte entera del numero hacia abajo
+ceiling(sqrt(2)) # redondea hacia arriba (contrario a floor)
 trunc(sqrt(2))
 
 sqrt(2)^2-2
@@ -110,14 +113,14 @@ round(sqrt(2), 4)^2
 2^50
 print(2^50, 15)
 print(2^50, 2)
-print(pi, 22)
+print(pi, 22) #tiene un maximo de 16 digitos decimales antes de errores
 #3.141592653589793115998
 #3.141592653589793238462
 
 round(1.25,1)
 round(1.35,1)
 round(sqrt(2),0)
-round(sqrt(2))
+round(sqrt(2)) #sino se le pone un parametro a round se toma como cero
 
 round(digits = 5, sqrt(2))
 round(5, sqrt(2))
@@ -241,3 +244,4 @@ z2
 Mod(z2)
 Arg(z2)
 pi/2
+
